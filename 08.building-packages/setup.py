@@ -8,9 +8,10 @@ setuptools.setup(
     author='author',
     author_email='',
     license='',
-    # packages=['mypackage'],
-    packages=setuptools.find_packages(),
+    packages=['mypackage'],
+    # packages=setuptools.find_packages(),
     zip_safe=False
 )
 
 # pip install . from parent directory
+# https://stackoverflow.com/a/42541684
